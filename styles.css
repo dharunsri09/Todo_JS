@@ -1,0 +1,130 @@
+/* Style for the button */
+.add_button{
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    right: 20px; /* Adjust the distance from the right as needed */
+    width: 70px; /* Set width of the button */
+    height: 70px; /* Set height of the button */
+    border-radius: 50%; /* To make it circular */
+    background-color: brown;
+    color: white; /* Text color */
+    font-size: 24px; /* Adjust font size as needed */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Show cursor as pointer on hover */
+  }
+  *{
+    margin: 0px;
+    
+  }
+ body{
+  background-color:#df5959;
+  
+ }
+
+ .button-adds{
+  margin-top: 200px;
+  width: 100px;
+  background-color: #bc6262;
+  border-radius: 10px;
+  height: 40px;
+  align-self: center;
+
+ }
+  .shadow_box{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+    
+   }
+   /* Style for the centered box */
+.add-content {
+  width: 400px; /* Set the width of the box */
+  height: 400px; /* Set the height of the box */
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 50%; /* Move the top of the box to the middle of the viewport */
+  left: 50%; /* Move the left side of the box to the middle of the viewport */
+  transform: translate(-50%, -50%); /* Adjust the box position based on its dimensions */
+  /* Additional styling */
+  border: 2px solid #333;
+  background-color: brown;
+  text-align: center;
+  padding: 20px;
+}
+.heads{
+  width: 100%;
+  height: 50px;
+  color: rgb(248, 39, 6);
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(13, 13, 13);
+}
+input{
+  width: 300px;
+  height: 50px;
+  padding: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+textarea{
+  width: 300px;
+  height: 100px;
+  padding: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+   header{
+    width: 100%;
+    height: 10%;
+    font-size: 24px;
+    padding-top:20px;
+    padding-left:30px;
+    background-color: brown;
+   }
+
+   ul{
+    display: inline;
+    float: right;
+    margin-right: 100px;
+   }
+   li{
+    display: inline;
+   }
+   li:hover{
+    cursor: pointer;
+    color: aliceblue;
+   }
+
+   .flex_one{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+    padding: 10px;
+   }
+   .cards_box{
+    width: 300px;
+    border: 1px solid #9e1e1e;
+    overflow: auto;
+    height: 300px;
+    background-color: brown;
+    box-shadow: 10px 10px 10px rgb(92, 87, 87);
+   }
+  .card_header {
+    width: 100%;
+    height: 50px;
+    color: rgb(248, 39, 6);
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+  }
+
+
+
+   
+
+
+  
